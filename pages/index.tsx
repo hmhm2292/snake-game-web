@@ -1,11 +1,13 @@
 import Head from "next/head";
 
-export default function Home() {
+const Board = () => {
   return (
     <Head>
-      <title>SNAKE GAME</title>
-      <meta name="description" content="You Only Live Once" />
-      <link rel="icon" href="/images/snakeFavicon.png" />
+      <title>Arcade World</title>
+      <meta name="description" content="arcade game group" />
+      <link rel="icon" href="/images/supermario_favicon.png" />
     </Head>
   );
-}
+};
+
+export default Board;
