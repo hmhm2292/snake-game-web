@@ -1,5 +1,7 @@
+import { Test } from "./LayoutHeader.styles";
+
 const LayoutHeaderUI = () => {
-  return <></>;
+  return <Test>LayoutHeader</Test>;
 };
 
 export default LayoutHeaderUI;

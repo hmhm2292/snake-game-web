@@ -1,5 +1,7 @@
+import { Test } from "./LayoutBanner.styles";
+
 const LayoutBannerUI = () => {
-  return <></>;
+  return <Test>LayoutBanner</Test>;
 };
 
 export default LayoutBannerUI;
