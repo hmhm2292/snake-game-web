@@ -1,5 +1,7 @@
+import { Test } from "./LayoutFooter.styles";
+
 const LayoutFooterUI = () => {
-  return <></>;
+  return <Test>LayoutFooter</Test>;
 };
 
 export default LayoutFooterUI;

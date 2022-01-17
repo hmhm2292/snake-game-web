@@ -1,13 +1,15 @@
 import Head from "next/head";
 
-const Board = () => {
+const Home = () => {
   return (
-    <Head>
-      <title>Arcade World</title>
-      <meta name="description" content="arcade game group" />
-      <link rel="icon" href="/images/supermario_favicon.png" />
-    </Head>
+    <>
+      <Head>
+        <title>심심할 때</title>
+        <meta name="description" content="arcade game group" />
+        <link rel="icon" href="/images/supermario_favicon.png" />
+      </Head>
+    </>
   );
 };
 
-export default Board;
+export default Home;
